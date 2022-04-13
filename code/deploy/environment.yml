@@ -3,7 +3,7 @@
 
 name: deployment_env
 dependencies:
-  - python=3.6.2
+  - python=3.7.12
   - scikit-learn=0.23.1
   - numpy=1.19.0
   - pip:
