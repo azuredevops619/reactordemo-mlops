@@ -39,7 +39,7 @@ environment:
   # Docker details
   docker:
     # Set True to perform this run inside a Docker container.
-    enabled: true
+    enabled: false
     # Base image used for Docker-based runs. Mutually exclusive with base_dockerfile.
     baseImage: mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04
     # Base Dockerfile used for Docker-based runs. Mutually exclusive with base_image
